@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html>
+<title>Cloud Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- style -->
+
+
+<style>
+  .market {
+    padding-top: 50px;
+    /* background-color: #0014ffcc; */
+    /* background:rgb(13, 44, 53); */
+    /* color: #e8eaed; */
+    background: url("https://www.catalinaexpress.com/sites/default/files/2018-11/catalina-island-harbor_0.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      color: white;
+      background-attachment: fixed;
+  }
+  
+  #knowledge {
+    width: 100%;
+    height: 100vh;
+    background: url("https://innovationatwork.ieee.org/wp-content/uploads/2019/09/bigstock-d-Rendering-Cloud-Computing-267217441_1024X684.jpg");
+    background-size: 100%, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    background-attachment: fixed;
+  }
+  
+  .What {
+    text-align: center;
+    font-size: 70pt;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    padding-top: 20%;
+    color: #ff2d1e;
+  }
+  
+  /*  */
+  
+  .cloud{
+    display: flex;
+  }  
+  .row{
+    display: flex;
+  }
+  .right-col p{
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 150px;
+    font-size: 20px;
+  
+  }
+  .left-col img{
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+  }
+  
+  
+  
+  
+  /*  */
+  
+  
+  
+  
+  
+  
+   
+   .about-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  } 
+  
+  .about-left-col {
+    flex-basis: 50%;
+  }
+  
+  .about-left-col img {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    border-radius: 80px;
+  }
+  
+  .about-right-col {
+    flex-basis: 50%;
+  }
+  
+  .about-right-col p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+  }
+  
+  .second-left-col {
+    flex-basis: 50%;
+  }
+  
+  .second-left-col img {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    border-radius: 80px;
+  }
+  
+  .second-right-col {
+    flex-basis: 50%;
+  }
+  
+  .second-right-col p {
+    font-size: 20px;
+    padding: 20px; 
+  
+  }
+  .merit{
+    padding: 100px 50px;
+    
+  }
+  
+  .c-rows{
+    display: flex;
+    justify-content: space-around;
+    align-items: wrap;
+    flex-wrap: wrap;
+  }
+  
+  
+   .c-bow{
+    flex-basis:30%;
+    text-align: center;
+    box-shadow: 2px 3px 5px grey;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  } 
+  
+  .c-bow:hover{
+    background: rgb(58, 58, 233);
+    background:rgb(13, 44, 53);
+     color: white;
+    transition: 0.4%;
+  } 
+   .c-bow img{
+    width: 50%;
+    height: 50%;
+  }
+  
+  
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  .flip-card {
+    
+      text-align: center;
+      margin-bottom:30px;
+      border-radius: 5px;
+      background-color: transparent;
+      width: 300px;
+      height: 200px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color:white;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .space{
+       display: flex;
+      justify-content: space-around;
+      align-items: wrap;
+      flex-wrap: wrap;
+      padding: 20px 50px; 
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  /* Mapppp */
+  .Map {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .infra-map {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infra-map h2 {
+    font: 400 24px / 32px Google Sans, sans-serif;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 0 16px;
+    text-align: center;
+  }
+  
+  .infra-map .stats-container {
+    background-color: #fff;
+    border: 1px solid #f1f3f4;
+    /* Google Grey 100 */
+    box-shadow: 0 1px 4px #e8eaed;
+    /* Google Grey 200 */
+    margin: 0 16px;
+    max-height: 309px;
+    padding: 28px;
+  }
+  
+  .infra-map p {
+    font-family: Google Sans, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .infra-map .stats {
+    display: grid;
+    grid-gap: 0 32px;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .infra-map .stat {
+    margin: 0 0 32px;
+  }
+  
+  .infra-map .stat .cws-headline--headline-5 {
+    color: #34a853;
+    /* Google Green 500 */
+    font-size: 28px;
+    font-family: Google Sans, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0 0 4px;
+    position: relative;
+  }
+  
+  .infra-map .stat .cws-headline--headline-5 span {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: -26px;
+  }
+  
+  .infra-map .stat p {
+    color: #202124;
+    /* Google Grey 900 */
+    font-size: 14px;
+    font-family: Google Sans, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 0;
+  }
+  
+  .infra-map .key-container {
+    display: none;
+    margin: 28px 0 0 128px;
+    width: 340px;
+  }
+  
+  .infra-map .key-container .cws-headline--headline-5 {
+    font-size: 11px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .infra-map .key {
+    padding: 0;
+  }
+  
+  .infra-map .key li {
+    color: #5f6368;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 20px;
+    list-style: none;
+    margin: 0 0 10px;
+  }
+  
+  .infra-map .key span {
+    flex: 1;
+  }
+  
+  .infra-map .key span.icon {
+    align-items: center;
+    display: flex;
+    flex: 0;
+    height: 20px;
+    margin: 0 8px 0 0;
+    text-align: right;
+  }
+  
+  .infra-map .map {
+    clear: both;
+  }
+  
+  .infrastructure-map {
+    margin: 36px 0 20px -17%;
+    width: 140%;
+  }
+  
+  .infrastructure-map img {
+    min-height: 200px;
+    min-width: 200px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    .infra-map {
+      display: grid;
+      grid-template-columns: minmax(32px, 1fr) 1fr 74px 1fr minmax(32px, 1fr);
+      grid-template-rows: auto 48px auto 22px auto;
+      grid-template-areas:
+        "head  head  head  head  head"
+        ".     .     .     .     ."
+        "map   map   map   map   map"
+        ".     .     .     .     ."
+        ".     stats .     keys  .";
+      width: 100vw;
+    }
+  
+    .infra-map h2 {
+      font-size: 32px;
+      grid-area: head;
+      line-height: 40px;
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 0 32px;
+    }
+  
+    .infra-map .stat .cws-headline--headline-5 {
+      font-size: 40px;
+      line-height: 48px;
+      margin-bottom: 0;
+    }
+  
+    .infra-map .stats-container {
+      grid-area: stats;
+      height: auto;
+      margin: 0;
+      max-height: initial;
+      width: 344px;
+    }
+  
+    .infra-map .stats {
+      grid-gap: 0 60px;
+    }
+  
+    .infra-map .stat {
+      margin-bottom: 28px;
+    }
+  
+    .infra-map .key-container {
+      border-top: 1px solid #d8d8d8;
+      display: block;
+      grid-area: keys;
+      margin-left: 0;
+      margin-top: 70px;
+      padding-top: 25px;
+      width: 286px;
+    }
+  
+    .infrastructure-map {
+      grid-area: map;
+      margin: 0 0 0 -17%;
+      width: 135%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .infra-map {
+      display: grid;
+      grid-gap: 0;
+      grid-template-columns: 72px 320px auto;
+      grid-template-rows: auto 60px 309px 27px auto;
+      grid-template-areas:
+        "head  head  head"
+        ".     .     .   "
+        ".     stats map "
+        ".     .     map "
+        ".     keys  map ";
+      overflow: hidden;
+    }
+  
+    .infra-map h2 {
+      font-size: 36px;
+      line-height: 44px;
+      margin: 0;
+      max-width: initial;
+    }
+  
+    .infra-map .stats-container,
+    .infra-map .key-container {
+      height: fit-content;
+      width: 360px;
+    }
+  
+    .infra-map .key-container {
+      border: none;
+      margin-top: 60px;
+      padding-top: 0;
+    }
+  
+    .infra-map .key {
+      display: grid;
+      grid-auto-flow: column;
+      grid-gap: 0 30px;
+      grid-template-rows: 1fr 1fr;
+    }
+  
+    .infra-map .key li:nth-child(2) {
+      grid-area: 2 / 1 / 4 / 1;
+    }
+  
+    .infra-map .stats {
+      grid-gap: 0 70px;
+      grid-template-columns: 1.6fr 1fr;
+    }
+  
+    .infra-map .stat h4 {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  
+    .infra-map {
+      position: relative;
+    }
+  
+    .key-container,
+    .stats-container {
+      position: relative;
+      z-index: 2;
+    }
+  
+    .infra-map .infrastructure-map {
+      align-self: center;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .infrastructure-map img {
+      margin-left: -7%;
+      margin-right: -15%;
+    }
+  }
+  
+  /*
+         * At screens larger than the 1440px max width, constrain the left margin
+         * to simulate a centered 1296px pixels wide element with 72px padding.
+         */
+  @media screen and (min-width: 1440px) {
+    .infra-map {
+      grid-template-columns: calc((100vw - 1296px) / 2) 320px auto;
+    }
+  }
+  
+  @media screen and (min-width: 1920px) {
+    .infra-map {
+      grid-template-columns: 312px 320px auto;
+    }
+  }
+  
+  @media screen and (min-width: 1900px) {
+    .infrastructure-map {
+      margin-left: -120px;
+      margin-right: -80px;
+      width: calc(100% + 48px);
+    }
+  
+    .infrastructure-map img {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
+  /* companies */
+  
+  .companyinvest {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+  }
+  
+  section.cws-fullbleed.customers {
+    padding: 34px 0 36px;
+    text-align: center;
+  }
+  
+  .logo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  
+  .logo-grid .logo-card {
+    align-items: center;
+    box-shadow: #e8eaed 0 1px 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 32%;
+    /* 3 cards per row */
+    flex-grow: 1;
+    justify-content: center;
+    margin: 2px;
+    max-height: 48px;
+    min-height: 48px;
+  }
+  
+  .logo-grid .logo-card img {
+    height: 100%;
+    max-height: 45px;
+    max-width: 110px;
+    object-fit: contain;
+    transform: scale(0.5);
+    width: 100%;
+  }
+  
+  .customers .cws-button {
+    margin: 34px auto 0;
+  }
+  
+  .logo-grid .logo-card.hide-on-mobile,
+  .logo-grid .logo-card.hide-on-tablet {
+    display: none;
+  }
+  
+  /* Specific logo overrides */
+  .logo-card.logo-airbus img,
+  .logo-card.logo-fujifilm img {
+    max-height: 14px;
+  }
+  
+  .logo-card.logo-forbes img,
+  .logo-card.logo-fidelity img,
+  .logo-card.logo-casio img,
+  .logo-card.logo-nri img {
+    max-height: 18px;
+  }
+  
+  .logo-card.logo-fedex img,
+  .logo-card.logo-spotify img,
+  .logo-card.logo-veolia img,
+  .logo-card.logo-ana img,
+  .logo-card.logo-kddi img {
+    max-height: 24px;
+  }
+  
+  .logo-card.logo-carrefour img,
+  .logo-card.logo-machida img,
+  .logo-card.logo-mizuho img,
+  .logo-card.logo-hamamatsu,
+  .logo-card.logo-tv_tokyo img {
+    max-height: 38px;
+  }
+  
+  .logo-card.logo-home-depot img,
+  .logo-card.logo-toyota img,
+  .logo-card.logo-asahi img,
+  .logo-card.logo-zozotech img,
+  .logo-card.logo-bandia img {
+    max-height: 48px;
+  }
+  
+  .logo-card.logo-target img,
+  .logo-card.logo-cardinal-health img,
+  .logo-card.logo-mayo-home-depot img,
+  .logo-card.logo-jeis img {
+    max-height: 54px;
+  }
+  
+  .logo-card.logo-nintendo img {
+    max-height: 60px;
+  }
+  
+  .logo-card.logo-lg img,
+  .logo-card.logo-twitter img,
+  .logo-card.logo-georgetown-university img {
+    max-height: 70px;
+  }
+  
+  .logo-card.logo-colgate-palmolive img,
+  .logo-card.logo-nyc-times img,
+  .logo-card.logo-deutsche-borse img,
+  .logo-card.logo-jp_office_support img {
+    max-width: 150px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .logo-card:nth-child(n + 26) {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .logo-card:nth-child(n + 22) {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 600px) {
+    section.cws-fullbleed.customers {
+      padding: 33px 0 36px;
+    }
+  
+    .logo-grid {
+      margin-top: 3px;
+    }
+  
+    .logo-grid .logo-card {
+      flex-basis: 19%;
+      /* 5 cards per row */
+      margin: 3px;
+      max-height: 93px;
+      min-height: 93px;
+    }
+  
+    .logo-grid .logo-card img {
+      transform: scale(1);
+    }
+  
+    .customers .cws-button {
+      margin-top: 33px;
+    }
+  
+    .logo-grid .logo-card.hide-on-mobile {
+      display: flex;
+    }
+  
+    .logo-grid .logo-card.hide-on-mobile.hide-on-tablet {
+      display: none;
+    }
+  
+    .solve-more .cloud-carousel__slide {
+      padding: 0 50px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    section.cws-fullbleed.customers {
+      padding: 32px 0 36px;
+    }
+  
+    .logo-grid {
+      margin-top: 4px;
+    }
+  
+    .logo-grid .logo-card {
+      flex-basis: 13%;
+      /* 7 cards per row */
+      margin: 4px;
+    }
+  
+    .customers .cws-button {
+      margin: 20px auto 0;
+    }
+  
+    .logo-grid .logo-card.hide-on-mobile.hide-on-tablet {
+      display: flex;
+    }
+  }
+  
+  /*  */
+  @media only screen and (max-width: 770px){
+    #knowledge{
+      background-size: cover;
+        background-attachment: fixed;
+    }
+    .left-col img{
+      width: 100px;
+      
+    }
+    .right-col p{
+      
+      padding-right: 0%;
+    }
+
+    .types-left-col img{
+      min-height: 100pc;
+      padding-bottom: 0px;
+      min-width: 10pt;
+      
+    }
+    .types-right-col p{
+      flex-basis: 100%;
+    }
+    .cloud-services-right-col img{
+      width: 20pc;
+      
+      
+      display: block;
+    }
+
+    .cloud-services-left-col p{
+      display: block;
+    }
+
+    .about-left-col img{
+      min-height: 35pc;
+      min-width: 20pc;
+      display: inline;
+    }
+
+    .second-left-col img{
+      min-height: 35pc;
+      min-width: 18pc;
+    }
+
+    .cloud-market-right-col img{
+      min-height: 10px;
+      min-width: 18pc;
+      display: inline;
+    }
+
+    .cloud-market-left-col p{
+      padding: 0px 0px;
+      display: block;
+
+      
+    }
+    .infrastructure-map img{
+      width: 55pc;
+      height: 20pc;
+    }
+
+    .persons{
+      display: block;
+    }
+    .identity{
+      display: inline-block;
+      
+
+    }
+  }
+  
+  
+  
+  
+  </style>
+  
+ 
+
+
+<!-- style -->
+<!-- <link rel="stylesheet" href="style.css"> 
+<body id="myPage">
+  <!-- <i class="fa-solid fa-square"></i> -->
+  <body id="myPage">
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <!-- <a href="#" class="w3-bar-item w3-button w3-teal"> InfinityTech</a> -->
+  <img src="https://global-uploads.webflow.com/57013820ae28654573965bf2/57013a1ff31eee4673af9209_cloudcraft.svg" class="w3-bar-item w3-button w3-teal"style="height: 40px;width: 110px;">
+  <a href="#what is cloud" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  <a href="#cloud-market-list" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Growing Market</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">More To get<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="https://aws.amazon.com/what-is-cloud-computing/" target="_blank" class="w3-bar-item w3-button">AWS</a>
+      <a href="https://azure.microsoft.com/en-in/overview/what-is-cloud-computing/#benefits" target="_blank"class="w3-bar-item w3-button">Microsoft Azure</a>
+      <a href="https://cloud.google.com/" class="w3-bar-item w3-button" target="_blank">Google Cloud</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navbar" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#what is cloud" class="w3-bar-item w3-button">About</a>
+    <a href="#cloud-market-list" class="w3-bar-item w3-button">Growing Market</a>
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div> 
+</div> -->
+
+
+
+
+<section id="knowledge">
+  <div>
+    <h1 class="What">Cloud Technology</h1>
+  </div>
+
+</section>
+<!-- nn -->
+
+
+<h1 style="text-align:center;font-family:sc0xffffff;color:rebeccapurple;padding-top: 25px;font-size: 60px;">What is cloud ?</h1> 
+<section id="what is cloud">
+
+    <div class="cloud">
+        
+        <div class="row">
+            
+            <div class="right-col">
+                <p >Simply put, cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, helping lower your operating costs, run your infrastructure more efficiently and scale as your business needs change.</p>
+            </div>
+            <div class="left-col">
+                <img src="https://azurecomcdn.azureedge.net/cvt-953440fb83ee1581804919be2e1842d1be1a551a2b0b11d7c78fdc4c65a1b241/images/page/overview/what-is-cloud-computing/cloud-ill-1.svg" alt="" role="presentation">
+            </div>
+            
+        </div>
+    </div>
+<!-- types -->
+<h1
+        style="
+          text-align: left;
+          padding-left: 35px;
+          font-size: 40px;
+          color: blue;
+        "
+      >
+        Types of cloud computing ::
+      </h1>
+      <p style="padding-left: 35px; font-size: 18px; padding-right: 150px">
+        Not all clouds are the same and not one type of cloud computing is right
+        for everyone. Several different models, types and services have evolved
+        to help offer the right solution for your needs.
+        <br />
+        First, you need to determine the type of cloud deployment or cloud
+        computing architecture, that your cloud services will be implemented on.
+        There are three different ways to deploy cloud services: on a public
+        cloud, private cloud or hybrid cloud.
+      </p>
+      <div class="types" style="display: flex">
+        <div class="types-rows" style="display: flex">
+          <div class="types-left-col">
+            <img
+              src="https://azurecomcdn.azureedge.net/cvt-4ebff6697bba05a437fdb7f808273491f143c2239c14686301aa5eb3b4a35eeb/images/page/overview/what-is-cloud-computing/cloud-computing-border.svg"
+              alt="nothing"
+              style="padding: 20px 40px;height: 43pc"
+            />
+          </div>
+          <div class="types-right-col">
+            <h2 style="padding-top: 30px;color: rgb(95, 206, 243);">Public Cloud</h2>
+            <p
+              style="
+                font-size: 20px;
+                padding-top: 1px;
+                padding-right: 140px;
+                padding-left: 15px;
+              "
+            >
+              Public clouds are owned and operated by a third-party cloud
+              service providers, which deliver their computing resources like
+              servers and storage over the Internet. Microsoft Azure is an
+              example of a public cloud. With a public cloud, all hardware,
+              software and other supporting infrastructure is owned and managed
+              by the cloud provider. You access these services and manage your
+              account using a web browser.
+            </p>
+
+            <h2 style="padding-top: 20px;color: rgb(39, 39, 243);">Private Cloud</h2>
+            <p
+              style="
+                font-size: 20px;
+                padding-top: 1px;
+                padding-right: 140px;
+                padding-left: 15px;
+              "
+            >
+              A private cloud refers to cloud computing resources used
+              exclusively by a single business or organisation. A private cloud
+              can be physically located on the company’s on-site datacenter.
+              Some companies also pay third-party service providers to host
+              their private cloud. A private cloud is one in which the services
+              and infrastructure are maintained on a private network.
+            </p>
+
+            <h2 style="padding-top: 20px;font-size: bold;color: rgba(4, 4, 87, 0.883);" >Hybrid Cloud</h2>
+            <p
+              style="
+                font-size: 20px;
+                padding-top:1px;
+                padding-right: 140px;
+                padding-left: 15px;
+              "
+            >
+              Hybrid clouds combine public and private clouds, bound together by
+              technology that allows data and applications to be shared between
+              them. By allowing data and applications to move between private
+              and public clouds, a hybrid cloud gives your business greater
+              flexibility, more deployment options and helps optimise your
+              existing infrastructure, security and compliance.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+<!-- types -->
+  </section>
+<!-- scection cloud services -->
+<section id="cloud-services-list"style="background-color: #37377e;">
+  <h1 style="text-align: center;color:red; font-size: 45px;padding-top: 10px;">Types of cloud computing Services</h1>
+  <p style="color: aliceblue;padding-top: 15px;padding-left: 40px;padding-right: 40px;font-size: 18px;">The three main types of cloud computing services include Infrastructure as a Service, Platform as a Service, and Software as a Service. Each type of cloud computing services provides different levels of control, flexibility, and management so that you can select the right set of services for your needs. </p>
+              <div class="cloud-services" >
+                      <div class="cloud-services-rows"style="display:flex;" >
+                          <div class="cloud-services-right-col">
+                               <img src="https://d1.awsstatic.com/what-is-aws/AWS-Types-of-Cloud-Computing_Infrastructure-as-a-Service-N.c5652344dcebff751adc45c0f75c17fb3cdd89a6.png" alt="Iaas"
+                               style="height: 90%;padding-left: 35px;padding-top: 20px;padding-right: 40px;padding-bottom: 40px;">
+                          </div>
+                          <div class="cloud-services-left-col">
+                              <h1 style="text-align:center;color: orange;font-size: 30px;">Infrastructure as a Service (IaaS)</h1>
+                              <p style="color: white;font-size: 20px;padding-right: 80px;padding-top: 50px;padding-left: 50px;">IaaS contains the basic building blocks for cloud IT. It typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. IaaS gives you the highest level of flexibility and management control over your IT resources. It is most similar to the existing IT resources with which many IT departments and developers are familiar. </p>
+                          </div>
+                         </div>
+
+                         <!--  -->
+                         <div class="cloud-services-rows"style="display:flex;" >
+                          <div class="cloud-services-right-col">
+                               <img src="https://d1.awsstatic.com/what-is-aws/AWS-Types-of-Cloud-Computing_Platform-as-a-Service-N.7563f3df64c8491a4dd77bd9c1f011e6c03e7ae4.png" alt="Iaas"
+                               style="height: 70%;padding-left: 35px;padding-top: 20px;padding-right: 40px;">
+                          </div>
+                          <div class="cloud-services-left-col">
+                              <h1 style="text-align:center;color: orange;font-size: 30px;">Platform as a Service (PaaS)</h1>
+                              <p style="color: white;font-size: 20px;padding-right: 80px;padding-top: 50px;padding-left: 50px;">PaaS removes the need for you to manage underlying infrastructure (usually hardware and operating systems), and allows you to focus on the deployment and management of your applications. This helps you be more efficient as you don’t need to worry about resource procurement, capacity planning, software maintenance, patching, or any of the other undifferentiated heavy lifting involved in running your application. </p>
+                          </div>
+                         </div>
+                          <!--  -->
+                          <div class="cloud-services-rows"style="display:flex;" >
+                              <div class="cloud-services-right-col">
+                                   <img src="https://d1.awsstatic.com/what-is-aws/AWS-Types-of-Cloud-Computing_Software-as-a-Service-N.0eb7e31fda0693dd4d7219c6d4442d3360cb60b9.png" alt="Iaas"
+                                   style="height: 90%;padding-left: 35px;padding-top: 20px;padding-right: 40px;">
+                              </div>
+                              <div class="cloud-services-left-col">
+                                  <h1 style="text-align:center;color: orange;font-size: 30px;">Software as a Service (SaaS)</h1>
+                                  <p style="color: white;font-size: 20px;padding-right: 80px;padding-top: 10px;padding-left: 50px;">SaaS provides you with a complete product that is run and managed by the service provider. In most cases, people referring to SaaS are referring to end-user applications (such as web-based email). With a SaaS offering, you don’t have to think about how the service is maintained or how the underlying infrastructure is managed. You only need to think about how you will use that particular software.</p>
+                              </div>
+                             </div>
+                             <br>
+                             <br>
+                      <!--  -->
+              </div>
+</section>
+
+
+<!-- ////// -->
+<!-- bb -->
+<section class="market">
+    <h1 style="font-family:sc0xffffff;text-align:center;font-size:50px;color:red;">Some Sectors In Which Cloud Can Play a Great Role </h1>
+    <div class="about-row">
+      <div class="about-left-col">
+      <h2 style="text-align: left;
+      margin-left: 100px;color: #ff6c37;"> Building A Chatbot</h2>
+        <img src="https://www.ubuntupit.com/wp-content/uploads/2019/09/chatbots.jpg">
+      </div>
+
+      <div class="about-right-col">
+        <p><a title="Top 30 Best Chatbot Frameworks To Build Powerful AI Bots" href="https://www.ubuntupit.com/best-chatbot-frameworks-to-build-powerful-ai-bots/" target="_blank" rel="noopener noreferrer">Chatbots</a> are complex artificial intelligence-based software used by various organizations for business purposes. Obviously, the location of chatbots is cloud storage, as it is learning the software. The scalable capacity of cloud storage about user information makes it possible to analyze user preferences. Chatbots provides various product-based information, custom messages and helps the user to get the right information. Siri, Alexa, Google assistant are the few intelligent examples of cloud computing bot.</p>
+        </div>
+
+      <div class="second-left-col">
+        <h2 style="text-align: left;
+      margin-left: 100px;color: #ff6c37;"> Business Management</h2>
+        <img src="http://www.esprit.co.in/wp-content/uploads/2016/04/cloudcomputing-1.jpg" >
+      </div>
+
+      <div class="second-right-col">
+        <p>Cloud computing can offer cross-platform solutions. Optimization and effectiveness is the reason why companies are shifting to cloud applications.Those cloud platforms offer several tools and libraries to accelerate cloud application.
+          The elasticity of cloud infrastructure enables application development smooth and fast.
+          The most widely used cloud providing service for application development is Amazon EC-2 for elastic cloud computing.
+          Other examples of a cloud platform for application development are G Suite, Apache Hadoop, Apache Cassandra, Hbase, MongoDB, Redis, etc.
+        </p>
+      </div>
+
+
+      <div class="second-left-col">
+        <h2 style="text-align: left;
+      margin-left: 100px;color: #ff6c37;"> Big-data-analysis</h2>
+        <img src="https://www.ubuntupit.com/wp-content/uploads/2019/09/big-data-analysis.jpg" >
+      </div>
+
+      <div class="second-right-col">
+        <p>Cloud computing plays a vital role in big data analysis. Simply big data is all about handling large amounts of data for several purposes. Massive data flows in a cloud platform with strong processing power enables <a title="Best 20 Data Scientist Skills That You Need To Get Data Science Jobs" href="https://www.ubuntupit.com/must-have-data-scientist-skills/" target="_blank" rel="noopener noreferrer">data scientists</a> to predict the company’s future crises. Data analysts detect simultaneous patterns and correlations with data mining technology, enabling accurate decision-making by the company ownersHPCC, Hadoop, Cassandra are a few examples of cloud computing with big data analysis features.
+        </p>
+      </div>
+
+
+      <div class="second-left-col">
+        <h2 style="text-align: left;
+      margin-left: 100px;color: #ff6c37;"> Healthcare Management</h2>
+        <img src="https://www.ubuntupit.com/wp-content/uploads/2019/09/Cloud-computing-in-health-care-2.png" >
+      </div>
+
+      <div class="second-right-col">
+        <p>Competitiveness exists in the healthcare industry. Lots of generated data in the medical sector is necessary for decision-making. Cloud computing makes it easy to store data, exchange data between organizations for efficient data analysis.
+        As security is so much here, both the healthcare organization and the cloud service provider takes the necessary steps to secure the patient’s data.
+        Microsoft Azure, IBM Cloud, Dell’s secure healthcare cloud are some of the essential examples of cloud computing platforms for the healthcare sector.
+        </p>
+      </div>
+
+      <div class="second-left-col">
+        <h2 style="text-align: left;
+      margin-left: 100px;color: #ff6c37;"> Marketing Solutions</h2>
+        <img src="https://www.ubuntupit.com/wp-content/uploads/2019/09/marketing-cloud-platform.jpg" >
+      </div>
+      <div class="second-right-col">
+        <p>
+        Different organizations are prioritizing marketing automation. For marketing strategy, it is important to understand customer choice and optimize the cost of the marketing. Cloud-based marketing platforms ensure connectivity between users and consumers through email, social media, etc.
+        Predictive analysis of cloud programs suggests to users which way would be better to connect with a customer.
+        A few examples of cloud-based marketing platforms are oracle marketing cloud, Hubspot, AgilOne predictive marketing cloud, Message cloud, etc.
+        </p>
+      </div>
+
+
+
+      <div class="second-left-col">
+        <h2 style="text-align: left;
+      margin-left: 100px;color: #ff6c37;"> AI Development</h2>
+        <img src="https://miro.medium.com/max/9998/1*zbm0od0Ic3esJgRkKzpzcg.jpeg" >
+      </div>
+      <div class="second-right-col">
+        <p>
+        Cloud computing provides two basic prerequisites for running an AI system efficiently- scalable and cost-effective resources (mainly computing and storage) and processing power to suppress large amounts of data. First, it provides scalable, low-cost computing, and second, it is a great way to store and process large volumes of data. Therefore, combining the cloud with machine learning benefits both of these categories.
+        Artificial intelligence in cognitive computing has led big players in research technology to excel in cloud computing. Some examples are AWS, IBM Watson, and Microsoft Cognitive AI.
+        
+        </p>
+      </div>
+</section>
+<!-- Services -->
+
+<section class="merit">
+        <div class="section-info">
+            <h1 style="color: #ff8404e0;font-size: 60px;
+            text-align: center;font-family:sc0xffffff;
+        ">Sectors Believes In Cloud Technology</h1>
+            
+        </div>
+            
+        <div class="space">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="https://www.gstatic.com/bricks/image/4836174ae9f0e2b9f4013f4efe6239d0757e32b91e4df935f7aa711918d324bd.svg" alt="Avatar" style="width: 150px; height: 150px;">
+                      <h2 style="font-size: 20px;font-weight: 600;">Infrastructure modernization</h2>
+                    </div>
+                    <div class="flip-card-back">
+                      <br>
+                      <p>Modernize your cloud Infrastructure and run critical workloads like VMware, SAP, Oracle, and Windows natively on Google Cloud.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="https://www.gstatic.com/bricks/image/d313ee1b8bf2b8be6dc409fa374980ebb28db34f57e9b3f002c0c65bab47c90c.svg" alt="Avatar" style="width: 200px; height: 150px;">
+                      <h2 style="font-size: 20px;font-weight: 600;">Databases</h2>
+                    </div>
+                    <div class="flip-card-back">
+                      <br>
+                      <p>Modernize your cloud Infrastructure and run critical workloads like VMware, SAP, Oracle, and Windows natively on Google Cloud.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="https://www.gstatic.com/bricks/image/87fdc9539ddf7d1437add844e9bff6afef3006f93ad5bb6e46fe83f171bd7a8f.svg" alt="Avatar" style="width: 150px; height: 150px;">
+                      <h2 style="font-size: 20px;font-weight: 600;">Smart analytics</h2>
+                    </div>
+                    <div class="flip-card-back">
+                      <br>
+                      <p>Move from complex analytics to actionable insights with a serverless, fully managed analytics platform.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="https://www.gstatic.com/bricks/image/68a22955309e2bef5f12dbe16aeabc51298fa0ac421cc098a7dbcc93d9c9bc09.svg" alt="Avatar" style="width: 150px; height: 150px;">
+                      <h2 style="font-size: 20px;font-weight: 600;">Application modernization</h2>
+                    </div>
+                    <div class="flip-card-back">
+                      <br>
+                      <p>Modernize legacy applications and build new services that leverage Kubernetes, containers, and other cloud-native capabilities.</p>
+                      
+                    </div>
+                  </div>
+                  </div>
+              
+
+                  
+
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://www.gstatic.com/bricks/image/cbdcab9d99cf53c052f99afdb2b73a6f299973ddca21f57acedc3e1d12f2ef38.svg" alt="Avatar" style="width: 150px; height: 150px;">
+                    <h2 style="font-size: 20px;font-weight: 600;">Security</h2>
+                  </div>
+                  <div class="flip-card-back">
+                    <br>
+                    <p>Detect, investigate, and respond to online threats with proven security solutions to help protect your business.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            
+
+
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="https://www.gstatic.com/bricks/image/0e6ea71f0921e4652dc2d3db27cd1688e3b55c72329cfd3e01c97187fbf953a1.svg" alt="Avatar" style="width: 150px; height: 150px;">
+                  <h2 style="font-size: 20px;font-weight: 600;">Business application platform</h2>
+                </div>
+                <div class="flip-card-back">
+                  <br>
+                  <p>Securely automate processes and easily create applications without coding by extending your existing data with APIs</p>
+                  
+                </div>
+              </div>
+            </div>
+         
+
+
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://www.gstatic.com/bricks/image/7a915fba61cc794616b218bd32e3d10ecac40e77a9f393f11fed5586356c0f02.svg" alt="Avatar" style="width: 150px; height: 150px;">
+                <h2 style="font-size: 20px;font-weight: 600;">Productivity &amp; collaboration</h2>
+              </div>
+              <div class="flip-card-back">
+                <br>
+                <p>Work faster, smarter, and more collaboratively with Google Workspace, a workplace productivity solution with apps like Gmail, Docs, Drive, and Meet.</p>
+                
+              </div>
+            </div>
+          </div>
+        
+
+
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://www.gstatic.com/bricks/image/ae7a7a3bae24f02f9519483d406f5a95762bd66b847cccfc4f487ca863edfb48.svg" alt="Avatar" style="width: 150px; height: 150px;">
+              <h2 style="font-size: 20px;font-weight: 600;">AI &amp; machine learning</h2>
+            </div>
+            <div class="flip-card-back">
+              <br>
+              <p>Equip your teams with AI and ML solutions to increase efficiency within customer care, recruiting, and beyond.</p>
+              
+            </div>
+          </div>
+        </div>
+      
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://www.gstatic.com/bricks/image/6c54841d88960e6e5a99ed5d1cc04f867ee76b03605dc8c098fc61424f8d1b4e.svg" alt="Avatar" style="width: 150px; height: 150px;">
+            <h2 style="font-size: 20px;font-weight: 600;">Retail</h2>
+          </div>
+          <div class="flip-card-back">
+            <br>
+            <p>Stay agile across your, from store operations to merchandising to customer acquisition and retention.</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://www.gstatic.com/bricks/image/60b5f2cb8d1daf9e8d2018ec9832a02e7cd625bb9ef404b82f09bdd51c811888.svg" alt="Avatar" style="width: 150px; height: 150px;">
+            <h2 style="font-size: 20px;font-weight: 600;">Media &amp; entertainment</h2>
+          </div>
+          <div class="flip-card-back">
+            <br>
+            <p>Create world-class content, streamline workflows, quickly launch new digital services, and transform audience experiences</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://www.gstatic.com/bricks/image/e53c9a2aaaaef8f49dc9745efc9794a3e057fd75121af3d30deedb91489f9827.svg" alt="Avatar" style="width: 150px; height: 150px;">
+            <h2 style="font-size: 20px;font-weight: 600;">Healthcare &amp; life sciences</h2>
+          </div>
+          <div class="flip-card-back">
+            <br>
+            <p>Personalize patient experiences, modernize research and development, and tackle tough challenges in healthcare and life sciences</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://www.gstatic.com/bricks/image/38cceb59c2bc03f57922c28282f69b074a18ab71715c299a48a7a73474b4d429.svg" alt="Avatar" style="width: 150px; height: 150px;">
+            <h2 style="font-size: 20px;font-weight: 600;">Financial services</h2>
+          </div>
+          <div class="flip-card-back">
+            <br>
+            <p>Manage risk, make more timely decisions, and stay competitive while maintaining compliance in rapidly changing financial markets</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+            
+    </section>
+   <!-- cloud market -->
+
+   <section id="cloud-market-list">
+    <div class="cloud-market"style="background-color: #e8e8fb;" >
+            <div class="cloud-market-rows">
+                <br>
+                <h1 style="color: red;font-size: 60px;text-align: center;font-family:sc0xffffff">Global Cloud Market</h1>
+                <div class="cloud-market-right-col">
+                    <h1 style="font-size: 20px;text-align: center;color: rebeccapurple;">Worldwide Infrastructure of Cloud</h1>
+                     <img src="https://canalys-com-public-prod.s3.eu-west-2.amazonaws.com/cosi/campaign/2048/y1CogEypM~qKlbCccGbyj9tyI7ti8lFN.jpg" alt="graph"
+                     style="height: 25pc;border-radius: 30px;margin-left: auto;margin-right: auto;display: block;padding-top: 5px;">
+                     
+                </div>
+                <div class="cloud-market-left-col">
+                    <p style="padding-left: 70px;font-size: 20px;padding-right: 70px;padding-top: 16px;">Cloud infrastructure services spending grew 35% to US$41.8 billion in the first quarter of 2021. The trend of using cloud services for data analytics and machine learning, data center consolidation, application migration, cloud native development and service delivery continued at pace. Overall, customer spending exceeded US$40 billion a quarter for the first time in Q1, with total expenditure nearly US$11 billion higher than in Q1 2020 and nearly US$2 billion more than in Q4 2020, according to Canalys data.</p>
+                </div>
+               </div>
+               <!--  -->
+               <div class="cloud-market-rows">
+                <div class="cloud-market-right-col">
+                    <h1 style="font-size: 20px;text-align: center;color: rebeccapurple;">Major Cloud Market Holders</h1>
+                     <img src="https://canalys-com-public-prod.s3.eu-west-2.amazonaws.com/cosi/campaign/2048/KHE9VGyE7FFtiQ8hnamplOaSNzsS~gIa.jpg" alt="graph"
+                     style="height: 25pc;border-radius: 20px;margin-left: auto;margin-right: auto;display: block;">
+                     
+                </div>
+                <div class="cloud-market-left-col">
+                    <p style="padding-left: 70px;font-size: 20px;padding-right: 70px;padding-top: 16px;">Competition among the leading cloud service providers to capitalize on these opportunities will continue to intensify. “Geographic expansion for data sovereignty and to improve latency, either via full-region deployment or a local city point of presence, is one area of focus for the cloud service providers,” said Canalys Chief Analyst Matthew Ball.</p>
+                </div>
+               </div>
+
+
+               <!--  -->
+
+               <div class="cloud-market-rows"style="display: flex;">
+                <div class="cloud-market-right-col">
+                     <img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist/aws/aws-logo.jpg" alt="graph"
+                     style="height: 15pc;">
+                     
+                </div>
+                <div class="cloud-market-left-col">
+                    <p style="padding-left: 70px;font-size: 20px;padding-right: 70px;padding-top: 50px;">Amazon Web Services (AWS) was the leading cloud service provider in Q1 2021, growing 32% on an annual basis to account for 32% of total spend. In the last quarter it announced new CloudFront edge locations in Croatia and Indonesia and extended its Wavelength Zones for 5G networks to Japan and across the United States. It launched its new EX2 X2gd instances based on the AWS-designed Graviton2 CPU for memory-intensive workloads and improved price-performance.</p>
+                </div>
+               </div>
+
+               <!--  -->
+               <div class="cloud-market-rows"style="display: flex;">
+                <div class="cloud-market-right-col">
+                     <img src="https://qbd.eu/wp-content/uploads/azure-logo.png" alt="graph"
+                     style="height: 15pc;">
+                     
+                </div>
+                <div class="cloud-market-left-col">
+                    <p style="padding-left: 15px;font-size: 20px;padding-right: 70px;padding-top: 50px;">Microsoft Azure grew 50% for the third consecutive quarter, taking 19% market share in Q1 2021. Growth was boosted by cloud consumption and longer-term customer commitments enabled by investments in Azure Arc for hybrid-IT control plane management, Azure Synapse for data analytics, and AI as a platform. It introduced new industry clouds propositions for financial services, manufacturing and non-profit organizations, adding to healthcare and retail.</p>
+                </div>
+               </div>
+               <!--  -->
+               <div class="cloud-market-rows"style="display: flex;">
+                <div class="cloud-market-right-col">
+                     <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Cloud_Covered.max-1000x1000.jpg" alt="graph"
+                     style="height: 15pc;width: 29pc;">
+                     
+                </div>
+                <div class="cloud-market-left-col">
+                    <p style="padding-left: 30px;font-size: 20px;padding-right: 60px;padding-top: 50px;">Google Cloud maintained its momentum, benefiting from its Google One approach driving cross-sell and integration opportunities across its portfolio. Overall, it grew 56% in the latest quarter to account for a 7% market share. Cloud-native development and accelerated cloud migration among its customers has been boosted by its focus on industry-specific solutions, machine learning, analytics and data management.</p>
+                </div>
+               </div>
+
+               <!--  -->
+               <br>
+               <br>
+    </div>
+</section>
+
+
+<!-- cloud market -->
+<!-- Cloud Map -->
+<h1  style="font-size:50px;color:red;text-align:center;font-family:sc0xffffff">Cloud Scenerio Around The World</h1>
+<section class="infra-map cws-fullbleed" track-metadata-module="map" track-metadata-module_headline="200 countries territories 76 zones and counting">
+    <div class="infrastructure-map">
+      <picture>
+        <source type="image/webp" srcset="https://lh3.googleusercontent.com/Kzc6RVnTeZV2toZ-hbNpVHjaakRv8oavXrLOxWzOWCTKQYgSSvMkPL9WjYckytAG7z25u6bMub5m=e14-rw-lo-sc0xffffff-h600 1x,https://lh3.googleusercontent.com/Kzc6RVnTeZV2toZ-hbNpVHjaakRv8oavXrLOxWzOWCTKQYgSSvMkPL9WjYckytAG7z25u6bMub5m=e14-rw-lo-sc0xffffff-h1200 2x">
+        <source type="image/jpeg" srcset="https://lh3.googleusercontent.com/Kzc6RVnTeZV2toZ-hbNpVHjaakRv8oavXrLOxWzOWCTKQYgSSvMkPL9WjYckytAG7z25u6bMub5m=e14-rj-sc0xffffff-h600 1x,https://lh3.googleusercontent.com/Kzc6RVnTeZV2toZ-hbNpVHjaakRv8oavXrLOxWzOWCTKQYgSSvMkPL9WjYckytAG7z25u6bMub5m=e14-rj-sc0xffffff-h1200 2x">
+        <img alt="Map of Google Cloud Infrastructure" class="" loading="lazy" src="https://lh3.googleusercontent.com/Kzc6RVnTeZV2toZ-hbNpVHjaakRv8oavXrLOxWzOWCTKQYgSSvMkPL9WjYckytAG7z25u6bMub5m=e14-rj-sc0xffffff-h600" srcset="https://lh3.googleusercontent.com/Kzc6RVnTeZV2toZ-hbNpVHjaakRv8oavXrLOxWzOWCTKQYgSSvMkPL9WjYckytAG7z25u6bMub5m=e14-rj-sc0xffffff-h1200 2x">
+      </picture>
+      
+      </div>
+    </div>
+    <div class="stats-container">
+      <div class="stats">
+        <div class="stat">
+          <p class="cws-headline--headline-5"> 25 </p>
+          <p>cloud regions</p>
+        </div>
+        <div class="stat">
+          <p class="cws-headline--headline-5"> 76 </p>
+          <p>zones</p>
+        </div>
+        <div class="stat">
+          <p class="cws-headline--headline-5"> 144 </p>
+          <p>network edge locations</p>
+        </div>  <div class="stat">
+          <p class="cws-headline--headline-5">
+            <span>Available in</span> 200+ </p>
+          <p>countries &amp; territories</p>
+        </div> 
+      </div>
+    </div>
+    <div class="key-container">
+      <h3 class="cws-headline--headline-5" id="key" data-text="Key">Key</h3>
+      <ul class="key">
+        <li>
+          <span class="icon current-network">
+            <svg width="18" height="3" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#F5F5F5" d="M-128-554h1440v693H-128z"></path>
+                <path d="M1 1.5h16" stroke="#45AFFF" stroke-linecap="square" stroke-width="2"></path>
+              </g>
+            </svg>
+          </span>
+          <span>Current network</span>
+        </li>
+        <li>
+          <span class="icon submarine">
+            <svg width="18" height="3" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#F5F5F5" d="M-128-602h1440V91H-128z"></path>
+                <path d="M1 1.5h16" stroke="#34A853" stroke-linecap="square" stroke-width="2"></path>
+              </g>
+            </svg>
+          </span>
+          <span>Submarine Cable investments</span>
+        </li>
+        <li>
+          <span class="icon region">
+            <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#F5F5F5" d="M-299-552h1440v693H-299z"></path>
+                <path d="M9 5a4 4 0 11-8 0 4 4 0 018 0" fill="#4284F4">
+                </path>
+                <path d="M9 5a4 4 0 11-8 0 4 4 0 018 0z" stroke="#174EA6">
+                </path>
+              </g>
+            </svg>
+          </span>
+          <span>Current region with 3 zones</span>
+        </li>
+        <li>
+          <span class="icon region">
+            <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <path id="a" d="M.248 0h768v327h-768z"></path>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#F5F5F5" d="M-454-757h768v889h-768z"></path>
+                <use fill="#F5F5F5" xlink:href="#a" transform="translate(-454.248 -219)"></use>
+                <g>
+                  <path d="M9 5a4 4 0 11-8 0 4 4 0 018 0z" stroke="#174EA6" stroke-width="2"></path>
+                  <path d="M9 5a4 4 0 11-8 0 4 4 0 018 0" fill="#FFF">
+                  </path>
+                </g>
+              </g>
+            </svg>
+          </span>
+          <span>Future region with 3 zones</span>
+        </li>
+        <li>
+          <span class="icon edge">
+            <svg width="4" height="4" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#F5F5F5" d="M-302-601h1440V92H-302z"></path>
+                <path d="M4 2a2 2 0 11-4 0 2 2 0 014 0" fill="#202124">
+                </path>
+              </g>
+            </svg>
+          </span>
+          <span>Edge point of presence</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+<!-- COMPANANIES INDULDE IN it -->
+<h1 style="font-family:sc0xffffff;color:blue;text-align:center;font-size: 50px;">Companies Investing in Cloud Technologies</h1>
+
+  <section class="customers cws-fullbleed" track-metadata-module="customer">
+    <div class="logo-grid">
+      <div class="logo-card" >
+        <img alt="Niramai" class="" loading="lazy" src="https://lh3.googleusercontent.com/gj8SpOzupwUNpXI8zvCpLJS6Jc4DJ1w9Q6HpG80XM6gAnVQmDpj-syHXpp6OtNlwVrqGAAWoLtit8g=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/gj8SpOzupwUNpXI8zvCpLJS6Jc4DJ1w9Q6HpG80XM6gAnVQmDpj-syHXpp6OtNlwVrqGAAWoLtit8g=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="Viacom (Voot)" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/faa8092f1c6bf4e58ab5081b79436a713a4418cf2d4c2dba29d669f2747a9237.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="L&amp;T Financial Services" class="" loading="lazy" src="https://lh3.googleusercontent.com/tHZ1Ws8TngqOzsxkqwDwBH5qDDMthGGKrMjUGf_w70vWmgwgnK18hTnYeRwUgx6pqKGv1Z9ujD9xGg=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/tHZ1Ws8TngqOzsxkqwDwBH5qDDMthGGKrMjUGf_w70vWmgwgnK18hTnYeRwUgx6pqKGv1Z9ujD9xGg=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="NoBroker" class="" loading="lazy" src="https://lh3.googleusercontent.com/BKWuH3zPLKJUPD6Vnl8eZuYo_rj6d25C2IYZgYaea9bklQbJ7e-lALDo7UU0viZ5-7nWADTiVLrN=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/BKWuH3zPLKJUPD6Vnl8eZuYo_rj6d25C2IYZgYaea9bklQbJ7e-lALDo7UU0viZ5-7nWADTiVLrN=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="Wipro" class="" loading="lazy" src="https://lh3.googleusercontent.com/aLCymv4zxfj3_JsmAqCe8YzJRM4IHh3bwEhr00eNQiHqtPiMvkyOyUXOpUIFmPcmvJSTiWgSkKs=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/aLCymv4zxfj3_JsmAqCe8YzJRM4IHh3bwEhr00eNQiHqtPiMvkyOyUXOpUIFmPcmvJSTiWgSkKs=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="Hero Motocorp" class="" loading="lazy" src="https://lh3.googleusercontent.com/GRizgc4ifJEv8JhejFy389o5stY5SBcZ_2oSd60KxaH6M0r_m_YtVFsmKqv3YOUS9AfNC4pH2QlK=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/GRizgc4ifJEv8JhejFy389o5stY5SBcZ_2oSd60KxaH6M0r_m_YtVFsmKqv3YOUS9AfNC4pH2QlK=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="G R Infraprojects Limited" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/ff55145d95ce40d7bd98b25cae6309ffa7ba400c04e7856dc2b903549fe6f94b.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Paypal" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/56ba8a3632f4e73012a5be32ea8da3170453d3c31d49f9025c383127f9195464.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Twitter" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/609195a05089399be5856a240588a3261b8518eeb079d6f2afcc9c4dd74c90d0.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="HDFC Bank Ltd" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/4be895d46bba291f1afea866f0aa732cf0824be336ae9f7b6357685e53eb0485.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Air Vistara (TATA SIA)" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/5c96fe623b406c419b83b6a5b6441e3013178ad2979da6b8196959de4385fb16.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Spotify" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/4abef4b27ab3c0c6965b755593ddb03d32eb0a7ce05b0ef85e14cd101025fd63.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Cleartrip" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/9ddc9bf28a68bac4e194ba98eda8c356c6ad04ec5dd7775911e36471523da2d2.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Fedex" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/9cc0622e474ff74c75f1c0d43f5f163025012629deb801d3b070c2b8e84d8dbd.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Fidelity" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/63af69754b2d064ac3a9b87ec6bc796d0d0f9dc711cde96493635742bb70f8d7.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Mohalla Tech Private Limited (ShareChat)" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/0f4f68d5d44f5a1f88b77a43c3ed78684858fb9bf125ffb6a4fe013ad5562bd9.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Knolskape" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/288ba7a262dd8d87a21ffb1152bc763ba56d1fa078e4c0469528b9ec5c95bbf9.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Colgate Palmolive" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/778080755b730dc456e90b08b01c0f4ce28b8513807ac9c18dd66365b14f5651.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="ICICI Prudential Life Insurance" class="" loading="lazy" src="https://lh3.googleusercontent.com/eMnVx9zcp9F7l2HZFextsYUYwwwBRivetqFAU0bEFkSfJGUOTvmbPix_fekyA0MDnPwJjl3sLw0-=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/eMnVx9zcp9F7l2HZFextsYUYwwwBRivetqFAU0bEFkSfJGUOTvmbPix_fekyA0MDnPwJjl3sLw0-=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="Ather Energy" class="" loading="lazy" src="https://lh3.googleusercontent.com/FnwWH6lIshwjKFue_SKHmnAcSH0Fo8Q7U2Z8KKCGs_EBafvyyN3kuZ-1JSoVzV4S8u4EG-tz_uXD=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/FnwWH6lIshwjKFue_SKHmnAcSH0Fo8Q7U2Z8KKCGs_EBafvyyN3kuZ-1JSoVzV4S8u4EG-tz_uXD=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="Toyota" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/cf9e32f1b0bb27baf9575683a323233a1238ca17e67cbf06b2a48d08b5a0e60b.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Sterlite Technologies Limited" class="" loading="lazy" src="https://lh3.googleusercontent.com/eqqlzCqBSY0kGNmpoQ7CXLUbW8_QiAfp5MGubP5WKgbay4H5tR0veVj2XYFV9z6rh8FDUZKi10BmSQ=e14-rj-sc0xffffff-h45-w110" srcset="https://lh3.googleusercontent.com/eqqlzCqBSY0kGNmpoQ7CXLUbW8_QiAfp5MGubP5WKgbay4H5tR0veVj2XYFV9z6rh8FDUZKi10BmSQ=e14-rj-sc0xffffff-h90-w220 2x" >
+      </div>
+      <div class="logo-card">
+        <img alt="Max Life Insurance" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/ed0fc36c06d4af59193ef151b27373227c0f66a859af4d25c4c35b29a8d4d892.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="The New York Times" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/3f7df9360c5446f40407b1f72c47e86aac3199f7dd3fee2a88bd00f6798e1c3e.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Forbes" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/d0269f7f97bc64cbfc3faf170bb054856b2af6b55e1629ad9532945d6f4efb8a.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Airbus" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/edac37adb2bb6acde29d869094acc1dc7acd33686bef6e72304335687c71e3d4.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="LG" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/7b935a73f0042764474945c97d5ab29e758cc09bd2dd218237687d41a7ed2f0e.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Lufthansa" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/72b75fb32cb0743b4448af936c61ec3eba5219bc2b7f63f82f2c102cf0925cb2.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="McKesson" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/005015d7ac394fdcdba24b8ae3afd6d6235a42fa440691dbd8d1537824234669.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Discovery" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/2f0fe95075f6d22d2538171b3e16718b58a26419a1b94fb7e0818b600698478c.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Bloomberg" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/f8ccb03e5fcfa4967d715befe38e854f4d5063262135db07c7eadc07db30447e.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Sky" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/a3749f77bad35fba994696bd47855af7b73205004210faa772fe4515f11a32bc.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Goldman Sachs" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/0167f21165013f81f35aa11b11ee1b88b593c0a9dac0dc4ebe3d715f5342d4a7.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Deutsche Borse" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/e6a07474970a03a80efedfd59e557532ab9dcfc8a2f95990a4ca78cd43d23185.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+      <div class="logo-card">
+        <img alt="Roche" class="" loading="lazy" src="https://www.gstatic.com/bricks/image/5f8cbe56e25e6cbdb50de8b0406080e9eb73264b82fe7019f4eb73a54b0fae33.svg" style="max-width: 110px; max-height: 45px;">
+      </div>
+    </div>
+    
+  </section>
+
+
+
+
+
+
+<!-- Team Container -->
+<div class="team-container" id="team" style="font-family:sc0xffffff;">
+  <h2 style="color: red;font-size: 45px;text-align: center;">OUR TEAM</h2>
+  <p style="text-align: center;font-size: 30px;">Meet the Contributors :</p>
+  
+  <div class="persons" style="display: flex;"><br>
+  
+  <div class="identity"style="padding-left: 100px;padding-right:100px;">
+  
+    <p style="color: blue;font-size: 30px;">Pranab Bharadwaj</p>
+  </div>
+  
+  <div class="identity" style="padding-left: 100px;padding-right:80px;">
+    <!-- <img src="/w3images/avatar.jpg" alt="Contributor" style="width:45%" class="w3-circle w3-hover-opacity"> -->
+    <p style="color: blue;font-size: 30px;">Sagar Vashnav</p>
+    
+  </div>
+  
+  <div class="identity"style="padding-left: 100px;padding-right:100px;">
+    <!-- <img src="/w3images/avatar.jpg" alt="Contributor" style="width:45%" class="w3-circle w3-hover-opacity"> -->
+    <p style="color: blue;font-size: 30px;">Amit Kumar Jha</p>
+    
+  </div>
+  
+  <div class="identity"style="padding-left: 200px;padding-right:100px;">
+    <!-- <img src="/w3images/avatar.jpg" alt="Contributor" style="width:45%" class="w3-circle w3-hover-opacity"> -->
+    <p style="color: blue;font-size: 30px;">Shubham Kumar Vats</p>
+  </div>
+  
+  </div>
+  </div>
+
+<!-- + Container -->
+<!-- <div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div> -->
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="ChatBot"
+  agent-id="23df99e0-d064-4212-8071-67439af5fbf9"
+  language-code="en"
+></df-messenger>   
+
+
+
+
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>  Lets meet for a good start .</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Infinity Tech,Bangalore, India</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +91 28881555</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  infinityTech@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white"  action="/" method="POST">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <img src="https://global-uploads.webflow.com/57013820ae28654573965bf2/57013a1ff31eee4673af9209_cloudcraft.svg" alt="" >
+  <h4>Follow Us On</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/Sagar.vashnav123" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/SagarVashnav" title="Twitter"target="_blank"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="mailto: sagarvashnav72427@gmail.com.com" title="Google +"target="_blank"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/invites/contact/?i=m55uewddwawe&utm_content=j6s76dp" title="Instagram "target="_blank"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="http://www.linkedin.com/in/sagar-vashnav-353a881b9" title="Linkedin"target="_blank"><i class="fa fa-linkedin"></i></a>
+  <p>Managed  by infinityTech.io<br>@copyright2021</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
